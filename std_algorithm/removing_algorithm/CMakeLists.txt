@@ -1,0 +1,3 @@
+add_executable(removing_elements removing_elements.cc)
+add_executable(removing_elements_while_copying removing_elements_while_copying.cc)
+add_executable(removing_consecutive_duplicates removing_consecutive_duplicates.cc)

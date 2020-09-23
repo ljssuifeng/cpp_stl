@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ljs/study/c++_practice/container/sequence_container/deque_test/deque_test.cc
+algorithm
+-
+deque
+-
+iostream
+-
+iterator
+-
+string
+-
+

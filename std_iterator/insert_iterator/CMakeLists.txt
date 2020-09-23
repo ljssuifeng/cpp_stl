@@ -1,0 +1,1 @@
+add_executable(insert_iterator_test insert_iterator_test.cc)

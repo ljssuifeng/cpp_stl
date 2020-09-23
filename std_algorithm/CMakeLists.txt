@@ -1,0 +1,12 @@
+INCLUDE_DIRECTORIES(${SOURCE_DIR}/std_algorithm)
+add_executable(algorithm_test algorithm_test.cc)
+add_executable(foreach_test foreach_test.cc)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/non_modifying_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/modifying_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/removing_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/mutating_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/sorting_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/heap_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/sorted_range_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_algorithm/numeric_algorithm)
+

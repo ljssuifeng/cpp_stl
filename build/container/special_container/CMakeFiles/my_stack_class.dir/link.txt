@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/my_stack_class.dir/my_stack_class.cc.o  -o my_stack_class -rdynamic 

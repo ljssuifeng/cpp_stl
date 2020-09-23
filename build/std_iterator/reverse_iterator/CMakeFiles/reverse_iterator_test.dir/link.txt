@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/reverse_iterator_test.dir/reverse_iterator_test.cc.o  -o reverse_iterator_test -rdynamic 

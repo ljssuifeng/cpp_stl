@@ -1,0 +1,17 @@
+set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+cmake_minimum_required(VERSION 3.1)
+project(cpp_practice)
+
+add_definitions(-std=c++11)
+
+add_subdirectory(${SOURCE_DIR}/const_keyword)
+add_subdirectory(${SOURCE_DIR}/friend_class)
+add_subdirectory(${SOURCE_DIR}/smart_pointer)
+add_subdirectory(${SOURCE_DIR}/std_pair)
+add_subdirectory(${SOURCE_DIR}/std_tuple)
+add_subdirectory(${SOURCE_DIR}/std_numeric_limits)
+add_subdirectory(${SOURCE_DIR}/std_type_trait)
+add_subdirectory(${SOURCE_DIR}/container)
+add_subdirectory(${SOURCE_DIR}/std_algorithm)
+add_subdirectory(${SOURCE_DIR}/std_iterator)
+add_subdirectory(${SOURCE_DIR}/function_object)

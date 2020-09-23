@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/list_test.dir/list_test.cc.o  -o list_test -rdynamic 

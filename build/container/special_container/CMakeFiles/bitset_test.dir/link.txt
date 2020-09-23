@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/bitset_test.dir/bitset_test.cc.o  -o bitset_test -rdynamic 

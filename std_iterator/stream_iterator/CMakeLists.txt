@@ -1,0 +1,1 @@
+add_executable(stream_iterator_test stream_iterator_test.cc)

@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/rotating_elements.dir/rotating_elements.cc.o  -o rotating_elements -rdynamic 

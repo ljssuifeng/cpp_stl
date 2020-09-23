@@ -1,0 +1,2 @@
+add_executable(numeric_caculate_result numeric_caculate_result.cc)
+add_executable(relative_absolute_values relative_absolute_values.cc)

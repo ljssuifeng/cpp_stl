@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/search_adjacent.dir/search_adjacent.cc.o  -o search_adjacent -rdynamic 

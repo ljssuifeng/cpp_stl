@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/insert_iterator_test.dir/insert_iterator_test.cc.o  -o insert_iterator_test -rdynamic 

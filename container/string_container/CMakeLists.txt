@@ -1,0 +1,4 @@
+add_executable(string_get_filename string_get_filename.cc)
+add_executable(string_get_word_reverse string_get_word_reverse.cc)
+add_executable(string_to_number string_to_number.cc)
+add_executable(string_iterator string_iterator.cc)

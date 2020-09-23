@@ -1,0 +1,6 @@
+add_executable(stack_test stack_test.cc)
+include_directories(${COURRENT_SOURCE_DIR})
+add_executable(my_stack_class my_stack_class.cc)
+add_executable(queue_test queue_test.cc)
+add_executable(priority_queue_test priority_queue_test.cc)
+add_executable(bitset_test bitset_test.cc)

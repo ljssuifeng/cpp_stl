@@ -1,0 +1,2 @@
+add_executable(sorted_range_searching_element sorted_range_searching_element.cc)
+add_executable(sorted_range_merging_elements sorted_range_merging_elements.cc)

@@ -1,0 +1,2 @@
+add_executable(function_object_test function_object_test.cc)
+

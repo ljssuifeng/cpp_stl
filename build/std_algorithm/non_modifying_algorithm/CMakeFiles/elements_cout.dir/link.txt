@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/elements_cout.dir/elements_count.cc.o  -o elements_cout -rdynamic 

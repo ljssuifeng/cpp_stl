@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/reversing_elements_order.dir/reversing_elements_order.cc.o  -o reversing_elements_order -rdynamic 

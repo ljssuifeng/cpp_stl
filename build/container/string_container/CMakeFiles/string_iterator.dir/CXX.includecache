@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ljs/study/c++_practice/container/string_container/string_iterator.cc
+algorithm
+-
+cctype
+-
+iostream
+-
+locale
+-
+regex
+-
+string
+-
+

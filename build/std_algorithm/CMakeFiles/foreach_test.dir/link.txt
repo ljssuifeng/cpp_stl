@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/foreach_test.dir/foreach_test.cc.o  -o foreach_test -rdynamic 

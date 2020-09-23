@@ -1,0 +1,6 @@
+add_executable(reversing_elements_order reversing_elements_order.cc)
+add_executable(rotating_elements rotating_elements.cc)
+add_executable(permuting_elements permuting_elements.cc)
+add_executable(shuffling_elements shuffling_elements.cc)
+add_executable(moving_elements_to_front moving_elements_to_front.cc)
+add_executable(partition_into_two_subranges partition_into_two_subranges.cc)

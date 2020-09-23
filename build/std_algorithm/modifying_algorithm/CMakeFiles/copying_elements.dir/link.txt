@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/copying_elements.dir/copying_elements_test.cc.o  -o copying_elements -rdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/partial_sorting.dir/partial_sorting.cc.o  -o partial_sorting -rdynamic 

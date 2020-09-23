@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/string_iterator.dir/string_iterator.cc.o  -o string_iterator -rdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/g++   -g   CMakeFiles/searching_element.dir/searching_element.cc.o  -o searching_element -rdynamic 
