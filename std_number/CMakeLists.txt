@@ -1,0 +1,3 @@
+add_executable(random_number random_number.cc)
+add_executable(distribution_test distribution_test.cc)
+add_executable(number_complex number_complex.cc)

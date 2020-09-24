@@ -1,0 +1,5 @@
+add_executable(io_standard_input_output io_standard_input_output.cc)
+add_executable(io_format io_format.cc)
+add_subdirectory(${SOURCE_DIR}/std_io/file_access)
+add_subdirectory(${SOURCE_DIR}/std_io/string_stream)
+add_subdirectory(${SOURCE_DIR}/std_io/stream_buffer)

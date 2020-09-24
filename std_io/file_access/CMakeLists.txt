@@ -1,0 +1,2 @@
+add_executable(file_stream file_stream.cc)
+add_executable(file_random_access file_random_access.cc)
