@@ -1,0 +1,4 @@
+add_executable(thread_test thread_test.cc)
+target_link_libraries(thread_test pthread)
+add_executable(future_promise future_promise.cc)
+target_link_libraries(future_promise pthread)
