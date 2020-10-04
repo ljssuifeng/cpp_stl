@@ -1,0 +1,42 @@
+#include "factory.h"
+#include <iostream>
+#include "factory_main.h"
+#include "product.h"
+using namespace std;
+
+int main() {
+  // ąźłŰ
+  Factory* pFactory =
+      Factory::CreateFactory(Factory::FACTORY_TYPE::BENZ_FACTORY);
+  ICar* pCar = pFactory->CreateCar();
+  IBike* pBike = pFactory->CreateBike();
+
+  cout << "Benz factory - Car: " << pCar->Name() << endl;
+  cout << "Benz factory - Bike: " << pBike->Name() << endl;
+
+  SAFE_DELETE(pCar);
+  SAFE_DELETE(pBike);
+  SAFE_DELETE(pFactory);
+
+  // ąŚÂí
+  pFactory = Factory::CreateFactory(Factory::FACTORY_TYPE::BMW_FACTORY);
+  pCar = pFactory->CreateCar();
+  pBike = pFactory->CreateBike();
+  cout << "Bmw factory - Car: " << pCar->Name() << endl;
+  cout << "Bmw factory - Bike: " << pBike->Name() << endl;
+
+  SAFE_DELETE(pCar);
+  SAFE_DELETE(pBike);
+  SAFE_DELETE(pFactory);
+
+  // °ÂľĎ
+  pFactory = Factory::CreateFactory(Factory::FACTORY_TYPE::AUDI_FACTORY);
+  pCar = pFactory->CreateCar();
+  pBike = pFactory->CreateBike();
+  cout << "Audi factory - Car: " << pCar->Name() << endl;
+  cout << "Audi factory - Bike: " << pBike->Name() << endl;
+
+  SAFE_DELETE(pCar);
+  SAFE_DELETE(pBike);
+  SAFE_DELETE(pFactory);
+}
