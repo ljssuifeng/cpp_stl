@@ -1,0 +1,2 @@
+add_executable(variadic_template_function variadic_template_function.cc)
+add_executable(variadic_template_class variadic_template_class.cc)
