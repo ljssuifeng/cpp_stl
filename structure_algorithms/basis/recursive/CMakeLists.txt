@@ -1,0 +1,1 @@
+add_executable(arrangement_combination arrangement_combination.cc)
