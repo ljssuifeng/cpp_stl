@@ -1,6 +1,27 @@
 #include "stack.h"
 /****array stack is faster than linked stack!!! ********/
 /****array stack and linked stack is faster than derived stack***********/
+// whether the switch box is routable
+bool checkBox(int net[], int n) {
+  ArrayStack<int>* s = new ArrayStack<int>(n);
+  for (int i = 0; i < n; ++i) {
+    if (!s->empty()) {
+      if (net[i] == net[s->top()]) {
+        s->pop();
+      } else {
+        s->push(i);
+      }
+    } else {
+      s->push(i);
+    }
+  }
+  if (s->empty()) {
+    std::cout << "Switch box is routable.\n";
+    return true;
+  }
+  std::cout << "Switch box is not routable.\n";
+  return false;
+}
 
 // rail road cars
 ArrayStack<int>* track;
@@ -140,4 +161,7 @@ int main() {
 
   int carOrder[]{0, 3, 6, 9, 4, 8, 1, 2, 7, 10, 5};
   railRoad(carOrder, 10, 3);
+
+  int net[]{1, 2, 2, 1, 3, 3, 4, 4};
+  checkBox(net, 8);
 }

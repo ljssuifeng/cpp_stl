@@ -75,12 +75,22 @@ class ArrayStack : public Stack<T> {
     _stack[_stackTop--].~T();
   }
   void push(const T& theElement);
+  template <typename M>
+  friend std::ostream& operator<<(std::ostream& out, ArrayStack<M>& as);
 
  private:
   T* _stack;
   int _stackTop;
   int _arrayLength;
 };
+template <typename T>
+std::ostream& operator<<(std::ostream& out, ArrayStack<T>& as) {
+  while (!as.empty()) {
+    out << as.top();
+    as.pop();
+  }
+  return out;
+}
 
 template <typename T>
 ArrayStack<T>::ArrayStack(int initialCapacity) {
