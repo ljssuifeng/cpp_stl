@@ -1,3 +1,4 @@
+#pragma once
 #include <sstream>
 #include "structure_algorithms/linked_list/chain.h"
 #include "structure_algorithms/my_exceptions.h"
@@ -45,6 +46,8 @@ class ArrayQueue : Queue<T> {
     _queue[_theFront].~T();
   }
   void push(const T& theElement);
+  template <typename M>
+  friend std::ostream& operator<<(std::ostream& out, ArrayQueue<M>& aq);
 
  private:
   T* _queue;
@@ -52,6 +55,15 @@ class ArrayQueue : Queue<T> {
   int _theBack;   // index of queue back element
   int _arrayLength;
 };
+
+template <typename T>
+std::ostream& operator<<(std::ostream& out, ArrayQueue<T>& aq) {
+  while (!aq.empty()) {
+    out << aq.front();
+    aq.pop();
+  }
+  return out;
+}
 
 template <typename T>
 ArrayQueue<T>::ArrayQueue(int initialCapacity) {
