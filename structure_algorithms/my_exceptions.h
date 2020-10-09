@@ -71,6 +71,16 @@ class QueueEmpty {
   std::string message;
 };
 
+// tree is empty
+class EmptyTree {
+ public:
+  EmptyTree(std::string theMessage = "empty tree.") { message = theMessage; }
+  void outputMessage() { std::cout << message << std::endl; }
+
+ private:
+  std::string message;
+};
+
 // hash table full
 class HashTableFull {
  public:

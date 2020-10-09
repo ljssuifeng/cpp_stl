@@ -1,2 +1,5 @@
 include_directories(${SOURCE_DIR})
 add_executable(my_dictionary_test dictionary_test.cc dictionary.h)
+add_executable(hash_table_test hash_table_test.cc hash_table.h)
+add_executable(compress_txt compress.cc hash_table.h)
+add_executable(decompress_txt decompress.cc hash_table.h)
