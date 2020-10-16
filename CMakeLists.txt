@@ -2,6 +2,10 @@ set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 cmake_minimum_required(VERSION 3.1)
 project(cpp_practice)
 
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3 -msse4.1 -fopenmp")
+#set debug mode
+SET (CMAKE_BUILD_TYPE Release CACHE INTERNAL "" FORCE)
+
 add_definitions(-std=c++11)
 
 add_subdirectory(${SOURCE_DIR}/const_keyword)
