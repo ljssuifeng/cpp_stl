@@ -1,10 +1,11 @@
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.15)
+SET(CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe")
 project(cpp_practice)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3 -msse4.1 -fopenmp")
+#SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3 -msse4.1 -fopenmp")
 #set debug mode
-SET (CMAKE_BUILD_TYPE Release CACHE INTERNAL "" FORCE)
+SET (CMAKE_BUILD_TYPE Debug CACHE INTERNAL "" FORCE)
 
 add_definitions(-std=c++11)
 
@@ -21,8 +22,8 @@ add_subdirectory(${SOURCE_DIR}/std_iterator)
 add_subdirectory(${SOURCE_DIR}/function_object)
 add_subdirectory(${SOURCE_DIR}/std_io)
 add_subdirectory(${SOURCE_DIR}/std_number)
-add_subdirectory(${SOURCE_DIR}/concurrency_program)
+# add_subdirectory(${SOURCE_DIR}/concurrency_program)
 add_subdirectory(${SOURCE_DIR}/design_pattern)
 add_subdirectory(${SOURCE_DIR}/variadic_templates)
 add_subdirectory(${SOURCE_DIR}/debug)
-add_subdirectory(${SOURCE_DIR}/structure_algorithms)
+# add_subdirectory(${SOURCE_DIR}/structure_algorithms)

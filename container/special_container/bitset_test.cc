@@ -37,10 +37,10 @@ int main() {
 
   // print some number in binary representation
   std::cout << "267 as binary short:    "
-            << std::bitset<std::numeric_limits<ushort>::digits>(267)
+            << std::bitset<std::numeric_limits<unsigned short>::digits>(267)
             << std::endl;
   std::cout << "267 as binary long:    "
-            << std::bitset<std::numeric_limits<ulong>::digits>(267)
+            << std::bitset<std::numeric_limits<unsigned long>::digits>(267)
             << std::endl;
   std::cout << "10,000,000 with 24 bits: " << std::bitset<24>(1e7) << std::endl;
   // write binary prepresentation into string

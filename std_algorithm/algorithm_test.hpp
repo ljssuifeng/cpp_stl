@@ -16,6 +16,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
+#include <random>
 
 // INSERT_ELEMETNS(collection, first, last)
 //-fill values from from first to last into the collection
