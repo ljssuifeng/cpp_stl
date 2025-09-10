@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/equality.dir/equality_test.cc.o  -o equality -rdynamic 

@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/transforming_combining_elements.dir/transforming_combining_elements_test.cc.o  -o transforming_combining_elements -rdynamic 

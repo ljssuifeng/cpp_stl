@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/sorted_range_merging_elements.dir/sorted_range_merging_elements.cc.o  -o sorted_range_merging_elements -rdynamic 

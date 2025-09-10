@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/string_to_number.dir/string_to_number.cc.o  -o string_to_number -rdynamic 

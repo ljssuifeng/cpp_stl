@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/type_trait_test.dir/type_trait_test.cpp.o  -o type_trait_test -rdynamic 

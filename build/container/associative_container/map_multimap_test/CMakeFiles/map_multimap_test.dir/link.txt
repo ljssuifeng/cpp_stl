@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/map_multimap_test.dir/map_multimap_test.cc.o  -o map_multimap_test -rdynamic 

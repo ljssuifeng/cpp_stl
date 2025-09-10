@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/removing_elements_while_copying.dir/removing_elements_while_copying.cc.o  -o removing_elements_while_copying -rdynamic 

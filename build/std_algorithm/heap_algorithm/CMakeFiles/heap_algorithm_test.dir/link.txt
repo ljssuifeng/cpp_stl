@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/heap_algorithm_test.dir/heap_algorithm_test.cc.o  -o heap_algorithm_test -rdynamic 

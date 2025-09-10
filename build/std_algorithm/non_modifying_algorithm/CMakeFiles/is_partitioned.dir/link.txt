@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/is_partitioned.dir/is_partitioned_test.cc.o  -o is_partitioned -rdynamic 

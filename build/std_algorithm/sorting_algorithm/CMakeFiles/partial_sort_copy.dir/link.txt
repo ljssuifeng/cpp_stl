@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/partial_sort_copy.dir/partial_sort_copy.cc.o  -o partial_sort_copy -rdynamic 

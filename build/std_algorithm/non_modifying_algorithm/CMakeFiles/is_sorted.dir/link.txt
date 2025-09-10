@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/is_sorted.dir/is_sorted_test.cc.o  -o is_sorted -rdynamic 

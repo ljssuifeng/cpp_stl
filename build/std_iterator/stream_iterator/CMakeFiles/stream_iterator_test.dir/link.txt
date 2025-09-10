@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/stream_iterator_test.dir/stream_iterator_test.cc.o  -o stream_iterator_test -rdynamic 

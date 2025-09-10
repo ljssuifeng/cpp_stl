@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/numeric_caculate_result.dir/numeric_caculate_result.cc.o  -o numeric_caculate_result -rdynamic 

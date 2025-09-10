@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/moving_elements.dir/moving_elements_test.cc.o  -o moving_elements -rdynamic 

@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/is_heap.dir/is_heap_test.cc.o  -o is_heap -rdynamic 

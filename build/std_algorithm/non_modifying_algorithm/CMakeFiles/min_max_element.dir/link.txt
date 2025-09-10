@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/min_max_element.dir/min_max_element.cc.o  -o min_max_element -rdynamic 

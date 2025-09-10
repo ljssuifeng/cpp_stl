@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/smart_pointer.dir/smart_pointer_test.cpp.o  -o smart_pointer -rdynamic 

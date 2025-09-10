@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/swapping_elements.dir/swapping_elements_test.cc.o  -o swapping_elements -rdynamic 

@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/string_get_word_reverse.dir/string_get_word_reverse.cc.o  -o string_get_word_reverse -rdynamic 

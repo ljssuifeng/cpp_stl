@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/tuple_test.dir/tuple_test.cpp.o  -o tuple_test -rdynamic 

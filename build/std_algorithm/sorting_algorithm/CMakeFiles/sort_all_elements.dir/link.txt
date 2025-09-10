@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/sort_all_elements.dir/sort_all_elements.cc.o  -o sort_all_elements -rdynamic 

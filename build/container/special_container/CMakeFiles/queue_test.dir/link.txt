@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/queue_test.dir/queue_test.cc.o  -o queue_test -rdynamic 

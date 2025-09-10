@@ -1,1 +1,0 @@
-/usr/bin/g++   -g   CMakeFiles/deque_test.dir/deque_test.cc.o  -o deque_test -rdynamic 
